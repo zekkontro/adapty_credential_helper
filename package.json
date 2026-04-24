@@ -1,6 +1,6 @@
 {
   "name": "adapty-credential-helper",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chrome extension that imports App Store Connect and Google Play Console credentials into the Adapty onboarding flow.",
   "keywords": [
     "adapty",
