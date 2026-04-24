@@ -32,3 +32,5 @@ coverage/
 .cache/
 .parcel-cache/
 .turbo/
+
+*.zip
