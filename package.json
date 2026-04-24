@@ -1,0 +1,43 @@
+{
+  "name": "adapty-credential-helper",
+  "version": "0.1.0",
+  "description": "Chrome extension that imports App Store Connect and Google Play Console credentials into the Adapty onboarding flow.",
+  "keywords": [
+    "adapty",
+    "chrome-extension",
+    "manifest-v3",
+    "app-store-connect",
+    "google-play-console",
+    "onboarding",
+    "automation"
+  ],
+  "author": "Berat Kurt",
+  "license": "MIT",
+  "homepage": "https://github.com/beratkurt/adapty-credential-helper#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beratkurt/adapty-credential-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beratkurt/adapty-credential-helper/issues"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "package": "node scripts/package.mjs",
+    "release": "npm run build && npm run package"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.25",
+    "@types/chrome": "^0.0.268",
+    "archiver": "^7.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
